@@ -1,0 +1,31 @@
+.grid-box {
+  padding: 1.8em;
+  display: grid;
+  grid-template-columns: 15.5em 1fr;
+  grid-template-rows: 6em 7em 1fr;
+  align-items: flex-start;
+  column-gap: 2.6em;
+  width: 600px;
+}
+
+.grid-box_fig {
+  grid-column: 1 / 2;
+  grid-row: 1 / 4;
+}
+
+.grid-box__ttl {
+  grid-column: 2 / 3;
+  grid-row: 1 / 2;
+}
+
+.grid-box__text {
+  grid-column: 2 / 3;
+  grid-row: 2 / 3;
+  align-self: center
+}
+
+.btn-wrap {
+  grid-column: 2 / 3;
+  grid-row: 3 / 4;
+  align-self: flex-end
+}
